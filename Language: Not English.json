@@ -1,0 +1,20 @@
+{
+  "trash_id": "0dc8aec3bd1c47cd6c40c46ecd27e846",
+  "name": "Language: Not English",
+  "trash_description": "Blocks content not marked as English in the metadata",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Not English Language",
+      "implementation": "LanguageSpecification",
+      "negate": true,
+      "required": false,
+      "fields": {
+        "value": 1
+      }
+    }
+  ],
+  "trash_scores": {
+    "default": -10000
+  }
+}
