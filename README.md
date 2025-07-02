@@ -112,3 +112,16 @@ To verify it works:
 Created by **Whsikey** 
 If you're a recruiter or collaborator interested in automation, LLMs, or media infrastructure tooling, feel free to reach out.
 ---
+
+
+---
+
+## ⚠️ Legal Disclaimer
+This project is intended **solely for educational purposes** and for the automation of **public domain** or **legally licensed** media acquisition.
+
+⚠️ You are **responsible** for ensuring that any media accessed using this setup is done so **in accordance with your local laws** and licensing agreements.
+- **Do not use this setup to download or distribute copyrighted content.**
+- The author does **not condone piracy** and is **not liable** for misuse of this configuration.
+
+If you're using this to manage media you own or that is in the public domain — awesome. Stay legal, stay safe. 💻🛡️
+
