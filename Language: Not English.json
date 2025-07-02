@@ -1,7 +1,7 @@
 {
-  "trash_id": "0dc8aec3bd1c47cd6c40c46ecd27e846",
-  "name": "Language: Not English",
-  "trash_description": "Blocks content not marked as English in the metadata",
+  "trash_id": "guide-only",
+  "name": "Language: Not English or Eng-Sub",
+  "trash_description": "Blocks any release that is not English audio or is labeled as English subtitles only (e.g., eng-sub, english-sub, engsub).",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
@@ -11,6 +11,15 @@
       "required": false,
       "fields": {
         "value": 1
+      }
+    },
+    {
+      "name": "Eng-Sub Tag",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)\\b(eng[.-_ ]?subs?|english[.-_ ]?subs?|english[.-_ ]?subtitles)\\b"
       }
     }
   ],
