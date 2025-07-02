@@ -1,0 +1,38 @@
+{
+  "trash_id": "guide-only",
+  "name": "Language: English Dubbed",
+  "trash_description": "Matches dubbed releases that contain English audio, especially dual audio or explicitly tagged Eng Dub.",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Dual Audio Tag",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)(dual[-_. ]?audio|dual[-_. ]?lang)"
+      }
+    },
+    {
+      "name": "English Dub Tag",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?i)(eng[-_. ]?dub|english[-_. ]?dubbed|dubbed)"
+      }
+    },
+    {
+      "name": "Language: English",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 1
+      }
+    }
+  ],
+  "trash_scores": {
+    "default": 100
+  }
+}
